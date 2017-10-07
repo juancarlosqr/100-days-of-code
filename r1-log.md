@@ -28,3 +28,9 @@ python setup and filtering learning resources
 ### R1D2
 refreshing basics like variables, string slicing and placeholders. also started udemy course
 - [Day 2: What is programming all about?](http://tecladocode.com/blog/learn-python-day-2-what-is-programming-about/)
+
+### R1D3
+more on string formatting with .format and the new "f-string" syntax (python 3.6). I like this f-string syntax
+- [Day 3: Key Python Building Blocks](http://tecladocode.com/blog/learn-python-day-3-first-look-at-python/)
+- [Basics](https://python.swaroopch.com/basics.html)
+- [The new f-strings in Python 3.6](https://cito.github.io/blog/f-strings/)
