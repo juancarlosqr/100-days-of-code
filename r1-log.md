@@ -43,7 +43,24 @@ datatypes, numbers, operators and comparing, searching, testing and converting s
 - [Python Numbers](http://thepythonguru.com/python-numbers/)
 - [Python Strings](http://thepythonguru.com/python-strings/)
 
+### R1D5
+intro to functions and imports
+
+- [What's New In "Dive Into Python 3"](http://www.diveintopython3.net/whats-new.html)
+- [Chapter 1. Your First Python Program](http://www.diveintopython3.net/your-first-python-program.html)
+
 ## Notes
+
+- Everything in Python is an object
+- Everything is Case-Sensitive
+- Variables
+  - Python does not support in-line assignment, so there's no chance of accidentally assigning the value you thought you were comparing ```if version = 2```
+- Functions
+  - As soon as you have a named argument, all arguments to the right of that need to be named arguments, too
+- Exceptions
+  - Some programming languages encourage the use of error return codes, which you check. Python encourages the use of exceptions, which you handle
+- Modules
+  - A module's ```__name__``` depends on how you're using the module. If you import the module, then ```__name__``` is the module's filename, otherwise will be a special default value, ```__main__```
 
 __Keywords in Python 3__
 
