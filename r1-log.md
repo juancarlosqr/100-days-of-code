@@ -49,12 +49,26 @@ intro to functions and imports
 - [What's New In "Dive Into Python 3"](http://www.diveintopython3.net/whats-new.html)
 - [Chapter 1. Your First Python Program](http://www.diveintopython3.net/your-first-python-program.html)
 
+### R1D6
+operators, expressions, control flow and loops
+
+- [Operators and Expressions](https://python.swaroopch.com/op_exp.html)
+- [Control Flow](https://python.swaroopch.com/control_flow.html)
+- [Day 5: Booleans and if statements in Python](http://tecladocode.com/blog/learn-python-day-5-booleans-if-statements/)
+- [Day 6: For and While Loops in Python](http://tecladocode.com/blog/learn-python-day-6-for-and-while-loops-in-python/)
+
 ## Notes
 
 - Everything in Python is an object
 - Everything is Case-Sensitive
 - Variables
   - Python does not support in-line assignment, so there's no chance of accidentally assigning the value you thought you were comparing ```if version = 2```
+- Operators
+  - Operators with the same precedence are evaluated in a left to right manner (```5 + 9 - 4```)
+- Control Flow
+  - There is no ```switch``` statement in Python. You can use an ```if..elif..else``` statement to do the same thing (and in some cases, use a [dictionary](https://python.swaroopch.com/data_structures.html#dictionary) to do it quickly)
+  - ```while``` and ```for``` statements can have an optional ```else``` clause
+  - If there is an ```else``` clause for a ```while``` or ```for``` loop, it is always executed unless you break out of the loop with a ```break``` statement
 - Functions
   - As soon as you have a named argument, all arguments to the right of that need to be named arguments, too
 - Exceptions
@@ -72,7 +86,9 @@ __Operators__
 
 __Operators Precedence__
 
-![Operators Precedence](http://i1.wp.com/thepythonguru.com/wp-content/uploads/2015/08/python-operator-precedence1.jpg "Operators Precedence")
+[Source](https://docs.python.org/3/reference/expressions.html#operator-precedence)
+
+![Operators Precedence](./img/operators.png "Operators Precedence")
 
 __Augmented Assignment Operators__
 
