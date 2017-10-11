@@ -57,9 +57,17 @@ operators, expressions, control flow and loops
 - [Day 5: Booleans and if statements in Python](http://tecladocode.com/blog/learn-python-day-5-booleans-if-statements/)
 - [Day 6: For and While Loops in Python](http://tecladocode.com/blog/learn-python-day-6-for-and-while-loops-in-python/)
 
+### R1D7
+functions, named, default and variable args, modules
+
+- [Day 4: Functions in Python](http://tecladocode.com/blog/learn-python-day-4-functions-in-python/)
+- [Functions](https://python.swaroopch.com/functions.html)
+- [Modules](https://python.swaroopch.com/modules.html)
+
 ## Notes
 
 - Everything in Python is an object
+- Functions, Classes and Modules are first-class objects
 - Everything is Case-Sensitive
 - Variables
   - Python does not support in-line assignment, so there's no chance of accidentally assigning the value you thought you were comparing ```if version = 2```
@@ -70,11 +78,18 @@ operators, expressions, control flow and loops
   - ```while``` and ```for``` statements can have an optional ```else``` clause
   - If there is an ```else``` clause for a ```while``` or ```for``` loop, it is always executed unless you break out of the loop with a ```break``` statement
 - Functions
-  - As soon as you have a named argument, all arguments to the right of that need to be named arguments, too
+  - Every function in Python returns `None` unless we return something different
+  - The `pass` statement is used in Python to indicate an empty block of statements
+  - You cannot have a parameter with a default argument value preceding a parameter without a default argument value in the function's parameter list. `def func(a=5, b)` is not valid
+  - When we declare a starred parameter such as `*param`, then all the positional arguments from that point till the end are collected as a tuple called `param`
+  - When we declare a double-starred parameter such as `**param`, then all the keyword arguments from that point till the end are collected as a dictionary called `param`
+  - As soon as you have a named argument, all arguments to the right of that need to be named arguments, too. `func(a=3, b)` is not valid
+  - The convention followed for a `docstring` is a multi-line string where the first line starts with a capital letter and ends with a dot. Then the second line is blank followed by any detailed explanation starting from the third line
 - Exceptions
   - Some programming languages encourage the use of error return codes, which you check. Python encourages the use of exceptions, which you handle
 - Modules
   - A module's ```__name__``` depends on how you're using the module. If you import the module, then ```__name__``` is the module's filename, otherwise will be a special default value, ```__main__```
+  - In general, avoid using the `from..import` statement, use the `import` statement instead. This is because your program will avoid name clashes and will be more readable. Avoid using `from module import *` as well
 
 __Keywords in Python 3__
 
@@ -93,3 +108,36 @@ __Operators Precedence__
 __Augmented Assignment Operators__
 
 ![Augmented Assignment Operators](http://i0.wp.com/thepythonguru.com/wp-content/uploads/2015/08/python-augmented-assignment-operators.jpg "Augmented Assignment Operators")
+
+## Review
+
+- Bit-wise operations ([link](https://stackoverflow.com/questions/11810113/how-do-bitwise-operations-work-in-python))
+  - left/right shift (`<<|>>`)
+  - `AND|OR|XOR|invert`
+- Packages (https://python.swaroopch.com/modules.html#packages)
+
+## The Zen of Python, by Tim Peters
+
+Run `import this`
+
+```
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+```
