@@ -69,6 +69,11 @@ intro to basic data structures like list, tuple, dictionary and set
 
 - [Data Structures](https://python.swaroopch.com/data_structures.html)
 
+### R1D9 more on list, tuples and intro to calendar module
+more on list, tuples and intro to calendar module
+
+- [Native Datatypes](http://www.diveintopython3.net/native-datatypes.html)
+
 ## Notes
 
 - Everything in Python is an object
@@ -77,11 +82,17 @@ intro to basic data structures like list, tuple, dictionary and set
 - Variables
   - Python does not support in-line assignment, so there's no chance of accidentally assigning the value you thought you were comparing ```if version = 2```
 - Data Structures
+  - Integers can be arbitrarily large
+  - Floating point numbers are accurate to 15 decimal places
+  - The `int()` function will truncate, not round
+  - Python does not have infinite precision. `tan(π / 4)` should return `1.0`, not `0.99999999999999989`
   - Lists are mutable
   - Tuples are immutable
-  - You can use only immutable objects (like strings) for the keys of a dictionary but you can use either immutable or mutable objects for the values of the dictionary
+  - Tuples are faster than lists
+  - You can use only immutable objects (like strings, integers, tuples) for the keys of a dictionary but you can use either immutable or mutable objects for the values of the dictionary
   - Sequences are strings, list and tuples
   - The third argument on slicing is the step. `shop[2:100:2]`
+  - If the value is not found in a list, the `index()` method will raise an exception, not like in other languages that return an invalid index like `-1`. `list[-1]` is a valid statement
   - Sets are unordered collections of simple objects. These are used when the existence of an object in a collection is more important than the order or how many times it occurs
   - To make a copy of a list or such kinds of sequences or complex objects (not simple objects such as integers), then you have to use a full slicing operation to make a copy
 - Operators
