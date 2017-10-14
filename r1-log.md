@@ -5,7 +5,7 @@ Started on: Wednesday, October 4, 2017
 ## Resources
 
 - [100 Days Of Python](http://tecladocode.com/blog/100daysofpython/)
-- [#100DaysOfPython](https://twitter.com/search?q=%23100DaysOfPython)
+- [#100DaysOfPython](https://twitter.com/hashtag/100daysofpython?f=tweets&vertical=default&src=hash)
 - [Link To Work](https://github.com/juancarlosqr/datascience/tree/master/python/100daysofpython)
 
 ## Log
@@ -69,10 +69,16 @@ intro to basic data structures like list, tuple, dictionary and set
 
 - [Data Structures](https://python.swaroopch.com/data_structures.html)
 
-### R1D9 more on list, tuples and intro to calendar module
+### R1D9
 more on list, tuples and intro to calendar module
 
 - [Native Datatypes](http://www.diveintopython3.net/native-datatypes.html)
+
+### R1D10
+more on sets and dictionaries
+
+- [Native Datatypes](http://www.diveintopython3.net/native-datatypes.html)
+- [Day 7: Collections in Python](http://tecladocode.com/blog/learn-python-day-7-collections/)
 
 ## Notes
 
@@ -95,6 +101,7 @@ more on list, tuples and intro to calendar module
   - If the value is not found in a list, the `index()` method will raise an exception, not like in other languages that return an invalid index like `-1`. `list[-1]` is a valid statement
   - Sets are unordered collections of simple objects. These are used when the existence of an object in a collection is more important than the order or how many times it occurs
   - To make a copy of a list or such kinds of sequences or complex objects (not simple objects such as integers), then you have to use a full slicing operation to make a copy
+  - For Sets the `union`, `intersection`, and `symmetric_difference` operations are symmetric. `difference` is  not
 - Operators
   - Operators with the same precedence are evaluated in a left to right manner (```5 + 9 - 4```)
 - Control Flow
@@ -139,6 +146,7 @@ __Augmented Assignment Operators__
   - left/right shift (`<<|>>`)
   - `AND|OR|XOR|invert`
 - Packages (https://python.swaroopch.com/modules.html#packages)
+- There is no way of getting the index of a list in a `for...in` expression?. `for index, day in my_list:` throws following Exception `ValueError: too many values to unpack`
 
 ## The Zen of Python, by Tim Peters
 
