@@ -80,6 +80,13 @@ more on sets and dictionaries
 - [Native Datatypes](http://www.diveintopython3.net/native-datatypes.html)
 - [Day 7: Collections in Python](http://tecladocode.com/blog/learn-python-day-7-collections/)
 
+### R1D11
+comprehensions, iterable, iterators, and intro to generators
+
+- [Day 7: Collections in Python](http://tecladocode.com/blog/learn-python-day-7-collections/)
+- [List Comprehensions and Generator Expressions](http://djangostars.com/blog/list-comprehensions-and-generator-expressions/)
+- [Python Generators](http://thepythonguru.com/python-generators/)
+
 ## Notes
 
 - Everything in Python is an object
@@ -108,6 +115,13 @@ more on sets and dictionaries
   - There is no ```switch``` statement in Python. You can use an ```if..elif..else``` statement to do the same thing (and in some cases, use a [dictionary](https://python.swaroopch.com/data_structures.html#dictionary) to do it quickly)
   - ```while``` and ```for``` statements can have an optional ```else``` clause
   - If there is an ```else``` clause for a ```while``` or ```for``` loop, it is always executed unless you break out of the loop with a ```break``` statement
+- Iterable, Iterators and Generators
+  - Iterable is a "sequence" of data
+  - Iterator protocol is implemented whenever you iterate over a sequence of data
+  - Generators are functions used to create iterators, so that it can be used in the for loop
+  - Generators provide a convenient way to implement the iterator protocol
+  - Generator is an iterable created using a function with a yield statement
+  - The main advantage of generator over a list is that it take much less memory
 - Functions
   - Every function in Python returns `None` unless we return something different
   - The `pass` statement is used in Python to indicate an empty block of statements
