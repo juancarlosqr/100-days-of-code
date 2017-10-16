@@ -87,6 +87,18 @@ comprehensions, iterable, iterators, and intro to generators
 - [List Comprehensions and Generator Expressions](http://djangostars.com/blog/list-comprehensions-and-generator-expressions/)
 - [Python Generators](http://thepythonguru.com/python-generators/)
 
+### R1D12
+data type conversion, getting to know os and glob modules, and solving a math problem
+
+- [Python Lists](http://thepythonguru.com/python-lists/)
+- [Python Dictionaries](http://thepythonguru.com/python-dictionaries/)
+- [Python Tuples](http://thepythonguru.com/python-tuples/)
+- [Datatype conversion](http://thepythonguru.com/datatype-conversion/)
+- [Python Control Statements](http://thepythonguru.com/python-control-statements/)
+- [Python Functions](http://thepythonguru.com/python-functions/)
+- [Python Loops](http://thepythonguru.com/python-loops/)
+- [Comprehensions](http://www.diveintopython3.net/comprehensions.html)
+
 ## Notes
 
 - Everything in Python is an object
