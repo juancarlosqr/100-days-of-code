@@ -99,6 +99,13 @@ data type conversion, getting to know os and glob modules, and solving a math pr
 - [Python Loops](http://thepythonguru.com/python-loops/)
 - [Comprehensions](http://www.diveintopython3.net/comprehensions.html)
 
+### R1D13
+more on comprehensions, more on math functions and random numbers
+
+- [Comprehensions](http://www.diveintopython3.net/comprehensions.html)
+- [Python Mathematical Function](http://thepythonguru.com/python-mathematical-function/)
+- [Python Generating Random numbers](http://thepythonguru.com/python-generating-random-numbers/)
+
 ## Notes
 
 - Everything in Python is an object
