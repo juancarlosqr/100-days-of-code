@@ -106,6 +106,11 @@ more on comprehensions, more on math functions and random numbers
 - [Python Mathematical Function](http://thepythonguru.com/python-mathematical-function/)
 - [Python Generating Random numbers](http://thepythonguru.com/python-generating-random-numbers/)
 
+### R1D14
+intro to reading and writing text, csv and json files
+
+- [Day 8: Reading and Writing Files in Python](http://tecladocode.com/blog/learn-python-day-8-reading-and-writing-files-in-python/)
+
 ## Notes
 
 - Everything in Python is an object
