@@ -111,6 +111,11 @@ intro to reading and writing text, csv and json files
 
 - [Day 8: Reading and Writing Files in Python](http://tecladocode.com/blog/learn-python-day-8-reading-and-writing-files-in-python/)
 
+### R1D15
+strings and bytes, decode/encode, unicode and utf-8
+
+- [Strings](http://www.diveintopython3.net/strings.html)
+
 ## Notes
 
 - Everything in Python is an object
@@ -133,6 +138,13 @@ intro to reading and writing text, csv and json files
   - Sets are unordered collections of simple objects. These are used when the existence of an object in a collection is more important than the order or how many times it occurs
   - To make a copy of a list or such kinds of sequences or complex objects (not simple objects such as integers), then you have to use a full slicing operation to make a copy
   - For Sets the `union`, `intersection`, and `symmetric_difference` operations are symmetric. `difference` is  not
+- Bytes and Encoding
+  - In Python 3, all strings are sequences of Unicode characters
+  - An immutable sequence of Unicode characters is called a string
+  - An immutable sequence of numbers-between-0-and-255 is called a bytes object
+  - Bytes are not characters; bytes are bytes. Characters are an abstraction. A string is a sequence of those abstractions
+  - In Python 2, the default encoding for .py files was `ascii`. In Python 3, the default encoding is `utf-8`
+  - To specify source file encoding use `# -*- coding: [ENCODING] -*-`
 - Operators
   - Operators with the same precedence are evaluated in a left to right manner (```5 + 9 - 4```)
 - Control Flow
