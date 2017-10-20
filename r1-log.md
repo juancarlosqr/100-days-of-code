@@ -116,6 +116,12 @@ strings and bytes, decode/encode, unicode and utf-8
 
 - [Strings](http://www.diveintopython3.net/strings.html)
 
+### R1D16
+more on file handling an intro to regular expressions
+
+- [Python File Handling](http://thepythonguru.com/python-file-handling/)
+- [Regular Expressions](http://www.diveintopython3.net/regular-expressions.html)
+
 ## Notes
 
 - Everything in Python is an object
@@ -147,6 +153,13 @@ strings and bytes, decode/encode, unicode and utf-8
   - To specify source file encoding use `# -*- coding: [ENCODING] -*-`
 - Operators
   - Operators with the same precedence are evaluated in a left to right manner (```5 + 9 - 4```)
+- Regular Expressions
+  - `import re`
+  - Always use raw strings when dealing with regular expressions. `r'\bSTREET'`
+  - `^`: start of the string
+  - `$`: end of the string
+  - `?`: optional match
+  - `\b`: a word boundary must occur right here
 - Control Flow
   - There is no ```switch``` statement in Python. You can use an ```if..elif..else``` statement to do the same thing (and in some cases, use a [dictionary](https://python.swaroopch.com/data_structures.html#dictionary) to do it quickly)
   - ```while``` and ```for``` statements can have an optional ```else``` clause
