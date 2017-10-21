@@ -122,6 +122,11 @@ more on file handling an intro to regular expressions
 - [Python File Handling](http://thepythonguru.com/python-file-handling/)
 - [Regular Expressions](http://www.diveintopython3.net/regular-expressions.html)
 
+### R1D17
+better understanding of regular expressions. finally. still to much to learn about them
+
+- [Regular Expressions](http://www.diveintopython3.net/regular-expressions.html)
+
 ## Notes
 
 - Everything in Python is an object
@@ -156,10 +161,18 @@ more on file handling an intro to regular expressions
 - Regular Expressions
   - `import re`
   - Always use raw strings when dealing with regular expressions. `r'\bSTREET'`
+  - Don't chain methods. If `search` don't match the regex returns `None`, then calling on `groups` will throw an exception. `None.groups()`
   - `^`: start of the string
   - `$`: end of the string
   - `?`: optional match
+  - `*`: match zero or more
+  - `+`: match one or more
   - `\b`: a word boundary must occur right here
+  - `\d`: numeric digit
+  - `\D`: any character except a numeric digit
+  - `x{n,m}`: matches an x character at least n times, but not more than m times
+  - `(a|b|c)`: matches exactly one of a, b or c
+  - `(x)`: in general is a remembered group
 - Control Flow
   - There is no ```switch``` statement in Python. You can use an ```if..elif..else``` statement to do the same thing (and in some cases, use a [dictionary](https://python.swaroopch.com/data_structures.html#dictionary) to do it quickly)
   - ```while``` and ```for``` statements can have an optional ```else``` clause
