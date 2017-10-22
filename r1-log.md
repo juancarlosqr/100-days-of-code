@@ -127,6 +127,11 @@ better understanding of regular expressions. finally. still to much to learn abo
 
 - [Regular Expressions](http://www.diveintopython3.net/regular-expressions.html)
 
+### R1D18
+closures in combination with regular expressions
+
+- [Generators](http://www.diveintopython3.net/generators.html)
+
 ## Notes
 
 - Everything in Python is an object
@@ -173,6 +178,8 @@ better understanding of regular expressions. finally. still to much to learn abo
   - `x{n,m}`: matches an x character at least n times, but not more than m times
   - `(a|b|c)`: matches exactly one of a, b or c
   - `(x)`: in general is a remembered group
+  - `[abc]`: match either `a`, `b` or `c`
+  - `[^abc]`: `^` inside square brackets means negation. match any single character except `a`, `b` or `c`
 - Control Flow
   - There is no ```switch``` statement in Python. You can use an ```if..elif..else``` statement to do the same thing (and in some cases, use a [dictionary](https://python.swaroopch.com/data_structures.html#dictionary) to do it quickly)
   - ```while``` and ```for``` statements can have an optional ```else``` clause
