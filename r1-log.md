@@ -132,6 +132,11 @@ closures in combination with regular expressions
 
 - [Generators](http://www.diveintopython3.net/generators.html)
 
+### R1D19
+more on generators
+
+- [Generators](http://www.diveintopython3.net/generators.html)
+
 ## Notes
 
 - Everything in Python is an object
@@ -191,6 +196,7 @@ closures in combination with regular expressions
   - Generators provide a convenient way to implement the iterator protocol
   - Generator is an iterable created using a function with a yield statement
   - The main advantage of generator over a list is that it take much less memory
+  - `yield` pauses a function. `next()` resumes where it left off
 - Functions
   - Every function in Python returns `None` unless we return something different
   - The `pass` statement is used in Python to indicate an empty block of statements
