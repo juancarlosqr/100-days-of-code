@@ -137,6 +137,11 @@ more on generators
 
 - [Generators](http://www.diveintopython3.net/generators.html)
 
+### R1D20
+problem solving lesson and creating zip files
+
+- [Problem Solving](https://python.swaroopch.com/problem_solving.html)
+
 ## Notes
 
 - Everything in Python is an object
