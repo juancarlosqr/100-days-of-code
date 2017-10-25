@@ -142,6 +142,13 @@ problem solving lesson and creating zip files
 
 - [Problem Solving](https://python.swaroopch.com/problem_solving.html)
 
+### R1D21
+oop part 1. classes, private fields/methods, class/object variables, operator overloading
+
+- [Python Object and Classes](http://thepythonguru.com/python-object-and-classes/)
+- [Python Operator Overloading](http://thepythonguru.com/python-operator-overloading/)
+- [Object Oriented Programming](https://python.swaroopch.com/oop.html)
+
 ## Notes
 
 - Everything in Python is an object
@@ -233,6 +240,10 @@ __Operators Precedence__
 __Augmented Assignment Operators__
 
 ![Augmented Assignment Operators](http://i0.wp.com/thepythonguru.com/wp-content/uploads/2015/08/python-augmented-assignment-operators.jpg "Augmented Assignment Operators")
+
+__Operator Overloading (OOP)__
+
+![Operator Overloading](./img/operator_overloading.png "Operator Overloading")
 
 ## Review
 
