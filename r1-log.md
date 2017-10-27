@@ -149,6 +149,13 @@ oop part 1. classes, private fields/methods, class/object variables, operator ov
 - [Python Operator Overloading](http://thepythonguru.com/python-operator-overloading/)
 - [Object Oriented Programming](https://python.swaroopch.com/oop.html)
 
+### R1D22
+oop part 2. inheritance/polymorphism and iterators
+
+- [Object Oriented Programming](https://python.swaroopch.com/oop.html)
+- [Python inheritance and polymorphism](http://thepythonguru.com/python-inheritance-and-polymorphism/)
+- [Classes & Iterators](http://www.diveintopython3.net/iterators.html)
+
 ## Notes
 
 - Everything in Python is an object
@@ -219,6 +226,9 @@ oop part 1. classes, private fields/methods, class/object variables, operator ov
   - The convention followed for a `docstring` is a multi-line string where the first line starts with a capital letter and ends with a dot. Then the second line is blank followed by any detailed explanation starting from the third line
 - Exceptions
   - Some programming languages encourage the use of error return codes, which you check. Python encourages the use of exceptions, which you handle
+- OOP
+  - Using super class name, need to pass `self`. `SchoolMember.__init__(self, name)`
+  - Using `super()` method, don't need to pass `self`. `super().__init__(name)`
 - Modules
   - A module's ```__name__``` depends on how you're using the module. If you import the module, then ```__name__``` is the module's filename, otherwise will be a special default value, ```__main__```
   - In general, avoid using the `from..import` statement, use the `import` statement instead. This is because your program will avoid name clashes and will be more readable. Avoid using `from module import *` as well
