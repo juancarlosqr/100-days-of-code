@@ -156,6 +156,11 @@ oop part 2. inheritance/polymorphism and iterators
 - [Python inheritance and polymorphism](http://thepythonguru.com/python-inheritance-and-polymorphism/)
 - [Classes & Iterators](http://www.diveintopython3.net/iterators.html)
 
+### R1D23
+advanced iterators
+
+- [Advanced Iterators](http://www.diveintopython3.net/advanced-iterators.html)
+
 ## Notes
 
 - Everything in Python is an object
