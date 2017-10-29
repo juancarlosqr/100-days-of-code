@@ -161,6 +161,14 @@ advanced iterators
 
 - [Advanced Iterators](http://www.diveintopython3.net/advanced-iterators.html)
 
+### R1D24
+exceptions
+
+- [Input and Output](https://python.swaroopch.com/io.html)
+- [Exceptions](https://python.swaroopch.com/exceptions.html)
+- [Python Exception Handling](http://thepythonguru.com/python-exception-handling/)
+- [Python Modules](http://thepythonguru.com/python-modules/)
+
 ## Notes
 
 - Everything in Python is an object
@@ -231,6 +239,8 @@ advanced iterators
   - The convention followed for a `docstring` is a multi-line string where the first line starts with a capital letter and ends with a dot. Then the second line is blank followed by any detailed explanation starting from the third line
 - Exceptions
   - Some programming languages encourage the use of error return codes, which you check. Python encourages the use of exceptions, which you handle
+  - Statements under the `else` block run only when no exception is raised
+  - Statements under the `finally` block run every time no matter exception occurs or not
 - OOP
   - Using super class name, need to pass `self`. `SchoolMember.__init__(self, name)`
   - Using `super()` method, don't need to pass `self`. `super().__init__(name)`
@@ -259,6 +269,10 @@ __Augmented Assignment Operators__
 __Operator Overloading (OOP)__
 
 ![Operator Overloading](./img/operator_overloading.png "Operator Overloading")
+
+__Exception Classes__
+
+![Exception Classes](./img/exception-classes.jpg "Exception Classes")
 
 ## Review
 
