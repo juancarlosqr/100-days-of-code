@@ -169,6 +169,13 @@ exceptions
 - [Python Exception Handling](http://thepythonguru.com/python-exception-handling/)
 - [Python Modules](http://thepythonguru.com/python-modules/)
 
+### R1D25
+stdlib, decorators and intro to lambda
+
+- [Standard Library](https://python.swaroopch.com/stdlib.html)
+- [More](https://python.swaroopch.com/more.html)
+- [DRY Principles through Python Decorators](http://y.tsutsumi.io/dry-principles-through-python-decorators.html)
+
 ## Notes
 
 - Everything in Python is an object
